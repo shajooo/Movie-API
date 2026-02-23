@@ -21,7 +21,7 @@ interface TmdbResponse {
 @Component({
   selector: 'app-cineverse',
   standalone: true,
-  imports: [CommonModule, HttpClientModule, RouterLink],
+  imports: [CommonModule, HttpClientModule],
   templateUrl: './cineverse.html',
   styleUrls: ['./cineverse.css']
 })
